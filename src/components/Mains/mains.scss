@@ -1,0 +1,34 @@
+//@use 'src/styles/vars';
+
+.mains {
+  //margin-top: 1.5rem;
+  transition-duration: .5s;
+  transition: background-color 0.5s ease;
+
+  /*Comme on a placé le header en "fixed", main ne peut plus utiliser le header pour se placer. On a donc une superposition - très moche
+  Pour pallier à ça, on rajoute une marge à main.*/
+  //margin-top: 115px;
+
+  .main {
+    border-bottom: 1px solid #bb5432;
+    //background: vars.$mainColor;
+   
+    background-color: #fff;
+    color: #bb5432;
+    padding: 1.75rem 2rem;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    display: flex;
+    //flex-wrap: wrap;
+    justify-content: space-evenly;
+    //margin-top: 1,5rem;
+    left: 20px;
+    right: 20px;
+    }
+
+    .mains:hover {
+      background-color:#bb5432;
+      color: #fff;
+    }
+  }

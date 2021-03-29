@@ -1,4 +1,5 @@
-export default [
+export default {
+  mains: [
   {
     name: 'Australian Dollar',
     rate: 1.665247,
@@ -127,4 +128,5 @@ export default [
     name: 'South African Rand',
     rate: 16.779419,
   },
-];
+],
+};

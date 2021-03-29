@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top:20px;
+  left: 20px;
+  right: 20px;
+  z-index: 15;
+  height: 100%;
+
+  .header-content {
+      background-color: #bb5432;
+      color: white;
+      padding: .5em .5em;
+      text-align: center;
+
+
+      .header-convert {
+        font-size: 350%;
+        font-weight: bold;
+      }
+
+      .header-currencies {
+        font-size: 200%;
+        font-weight: lighter;
+    
+      }
+    }
+}
